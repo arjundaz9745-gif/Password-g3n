@@ -479,5 +479,5 @@ class ScraperWorker:
                                 )
                                 # Prefer a real mouse click on the container if
                                 # possible, otherwise JS-click the element
-                                try:
+                                return
                                     
