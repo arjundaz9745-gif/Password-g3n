@@ -51,7 +51,7 @@ try:
 except ValueError:
     raise ValueError("BOT_OWNER_ID must be a valid integer")
 
-HEADLESS_MODE = False
+HEADLESS_MODE = True
 
 class Emojis:
     """
