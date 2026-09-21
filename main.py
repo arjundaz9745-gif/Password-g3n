@@ -35,8 +35,8 @@ print("Loading environment variables...")
 load_dotenv()
 
 # Get token and owner ID from environment variables
-token = os.getenv(MTU1MTM2NTE3MDAxMjYyNzA2NA.GsKoWr.hxqPvThnMLlzY76kr8yZ54MuNvLTzzG0ge8juE)
-owner_id = os.getenv(1196709164928479282)
+token = os.getenv(MTU0OTcwMzQ4NTI3MDc4NjA2MA.GUYVZq.A7z0qjc92AfSxr26Z10dHk8-apfELRLzXNOsYA)
+owner_id = os.getenv(1521860662127755394)
 
 print(f"DISCORD_TOKEN found: {'Yes' if token else 'No'}")
 print(f"BOT_OWNER_ID found: {'Yes' if owner_id else 'No'}")
@@ -51,7 +51,7 @@ try:
 except ValueError:
     raise ValueError("BOT_OWNER_ID must be a valid integer")
 
-HEADLESS_MODE = False
+HEADLESS_MODE = True
 
 class Emojis:
     """
