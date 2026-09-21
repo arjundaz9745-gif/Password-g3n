@@ -479,3 +479,4 @@ class ScraperWorker:
                                 try:
                                     ActionChains(driver).move_to_element(use_pwd_el).click().perform()
           
+......
